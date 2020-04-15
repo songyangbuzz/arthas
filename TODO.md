@@ -2,7 +2,7 @@
 * 代码还是很乱，需要继续重构
 * 依赖需要清理，几个问题：
     * 所有 apache 的 common 库应当不需要
-    * json 库有好几份
+    * json 库有好几份aaa
     * `jopt-simple` 看下能不能用 `cli` 取代
     * `cli`, `termd` 的 artifactId, version 需要想下。是不是应该直接拿进来。他们的依赖也需要仔细看一下
 * termd 依赖 netty，感觉有点重，而且第一次 attach 比较慢，不确定是 netty 的问题还是 attach 的问题
